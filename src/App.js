@@ -8,7 +8,7 @@ function App() {
             <Greet name="Ivan">
                 <p>This is children props</p>
             </Greet>
-            <Welcome />
+            <Welcome name="Ivan" />
         </div>
     );
 }
