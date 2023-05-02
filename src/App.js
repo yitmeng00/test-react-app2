@@ -5,7 +5,7 @@ import Welcome from './components/Welcome.jsx';
 function App() {
   return (
     <div className="App">
-      <Greet />
+      <Greet name="Ivan" />
       <Welcome />
     </div>
   );
