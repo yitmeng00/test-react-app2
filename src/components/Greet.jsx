@@ -12,7 +12,12 @@ export const Greet = () => <h1>Hello Ivan</h1>
 */
 
 const Greet = (props) => {
-    return <h1>Hello {props.name}</h1>;
+    return (
+        <React.Fragment>
+            <h1>Hello {props.name}</h1>
+            {props.children}
+        </React.Fragment>
+    );
 };
 
 // default export method, ucan import it in app.js with any name, for eg: "import GreetComponent from './components/Greet.jsx';"
