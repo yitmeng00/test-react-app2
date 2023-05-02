@@ -1,5 +1,6 @@
 # This is a simple react project for testing while learning Codevolution's course "ReactJS Tutorial".
 Course Video: https://youtu.be/QFaFIcGhPoM
+ReactJS Tutorial for Beginners Playlist
 
 YouTube Channel: https://www.youtube.com/@Codevolution
 
