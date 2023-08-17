@@ -1,3 +1,4 @@
+// Functional component
 import React from "react";
 
 /*
@@ -20,5 +21,33 @@ const Greet = (props) => {
     );
 };
 
-// default export method, ucan import it in app.js with any name, for eg: "import GreetComponent from './components/Greet.jsx';"
+// default export method, can import it in app.js with any name, for eg: "import GreetComponent from './components/Greet.jsx';"
 export default Greet;
+
+// Destructuring props and state
+/*
+const Greet = ({name, children}) => {
+    return (
+        <React.Fragment>
+            <h1>Hello {name}</h1>
+            {children}
+        </React.Fragment>
+    );
+};
+
+export default Greet;
+*/
+
+/*
+const Greet = (props) => {
+    const {name, children} = props;
+    return (
+        <React.Fragment>
+            <h1>Hello {name}</h1>
+            {children}
+        </React.Fragment>
+    );
+};
+
+export default Greet;
+*/
