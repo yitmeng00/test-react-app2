@@ -6,11 +6,13 @@ import Counter from "./components/Counter.jsx";
 import Form from "./components/Form.jsx";
 import ParentComponent from "./components/ParentComponent";
 import UserGreeting from "./components/UserGreeting";
+import PostList from "./components/PostList";
 
 function App() {
     return (
         <div className="App">
-            <UserGreeting />
+            <PostList />
+            {/* <UserGreeting /> */}
             {/* <ParentComponent /> */}
             {/* <Form /> */}
             {/* <Counter />
