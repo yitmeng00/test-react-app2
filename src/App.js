@@ -7,11 +7,13 @@ import Form from "./components/Form.jsx";
 import ParentComponent from "./components/ParentComponent";
 import UserGreeting from "./components/UserGreeting";
 import PostList from "./components/PostList";
+import PostForm from "./components/PostForm";
 
 function App() {
     return (
         <div className="App">
-            <PostList />
+            <PostForm />
+            {/* <PostList /> */}
             {/* <UserGreeting /> */}
             {/* <ParentComponent /> */}
             {/* <Form /> */}
